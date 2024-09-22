@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div id="location" class="location"></div>
+        <div id="weather" class="weather"></div>
+        <form id="search-form" class="search-form">
+            <input type="text" id="city-input" placeholder="Introduzca ciudad">
+            <button type="submit">Consulta el clima</button>
+        </form>
+        <div id="placeholder-time" class="hidden">Hora local: --:--:--</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
